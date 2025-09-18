@@ -3,54 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS Flex Box</title>
+    <title>Nirmaan Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Navbar -->
     <div id="Navbar">
       <!-- Left Side -->
       <div id="leftside">
-        <div>
-          <a href="https://www.frontendpractice.com/projects" target=" ">
-            Frontend Example
-          </a>
-        </div>
+        <a href="https://www.frontendpractice.com/projects" target=" ">
+          Hi, I'm Nirmaan Student
+        </a>
       </div>
 
       <!-- Right Side -->
       <div id="rightSide">
-        <div>
-          <a href="https://www.frontendpractice.com" target=" ">Home</a>
-        </div>
-        <div>
-          <a href="https://www.frontendpractice.com/projects" target=" "
-            >Projects</a
-          >
-        </div>
-        <div>
-          <a href="https://www.frontendpractice.com/faq" target=" ">FAQ</a>
-        </div>
+        <a href="#About">About</a>
+        <a href="#Projects">Projects</a>
+        <a href="https://www.frontendpractice.com/faq" target=" ">
+          Contact
+        </a>
       </div>
     </div>
 
-    <hr />
+    <!-- About Section -->
+<!-- About Section -->
+<section id="About" class="about">
+ <video autoplay muted loop playsinline>
+  <source src="Assests\large.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
 
-    <!-- Main Section -->
-    <div id="main">
-      <h1>Nirmaan Frontend Practice - © 2025</h1>
 
+  <div class="about-content">
+    <h2>About Me</h2>
+    <p>
+      I'm a Computer Science student passionate about full stack
+      development, Java 8, and backend projects. I enjoy building real-world
+      apps and continuously learning new technologies.
+    </p>
+  </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="Projects">
+      <h2>My Projects</h2>
+      <div class="projects-container">
+        <div class="project">
+          <h3>Online Quiz Application</h3>
+          <p>
+            Built with Spring Boot + Angular for Nirmaan. Features JWT Security
+            and REST APIs.
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Appointment Booking System</h3>
+          <p>
+            Full-stack app with React, Node.js, JWT authentication and
+            role-based access.
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Portfolio</h3>
+          <p>This very website - made with HTML, CSS, and deployed online.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer">
+      <h1>✨ Nirmaan Frontend Practice - © 2025 ✨</h1>
       <div id="elements">
-        <div>
-          <a href="https://www.frontendpractice.com" target=" ">Home</a>
-        </div>
-        <div>
-          <a href="https://www.frontendpractice.com/projects" target=" "
-            >Projects</a
-          >
-        </div>
-        <div>
-          <a href="https://www.frontendpractice.com/faq" target=" ">FAQ</a>
-        </div>
+        <a href="https://www.frontendpractice.com" target=" ">Home</a>
+        <a href="https://www.frontendpractice.com/projects" target=" ">
+          Projects
+        </a>
+        <a href="https://www.frontendpractice.com/faq" target=" ">FAQ</a>
       </div>
     </div>
   </body>
